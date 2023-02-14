@@ -1,0 +1,96 @@
+site_name: Hyperledger Project
+theme:
+  name: material
+  logo: assets/project-logo.png
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+  - content.code.copy
+  - navigation.expand
+  - navigation.footer
+  - navigation.instant
+  - navigation.tracking
+  - toc.follow
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+extra:
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+nav:
+  - Introduction: index.md
+  - Concepts:
+    - Concept 1: concepts/concept-1.md
+    - Concept 2: concepts/concept-2.md
+    - Concept 3: concepts/concept-3.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Running: getting-started/running.md
+    - Contributing:
+      - How to Contribute: contributing/how-to-contribute.md
+      - Reporting a bug: contributing/reporting-a-bug.md
+      - Requesting a change: contributing/requesting-a-change.md
+      - Asking a question: contributing/asking-a-question.md
+  - Tutorials:
+    - Introduction: tutorials/index.md
+    - Tutorial 1: tutorials/tutorial-1.md
+    - Tutorial 2: tutorials/tutorial-2.md
+    - Tutorial 3: tutorials/tutorial-3.md
+  - Guides:
+    - Operations: guides/operations.md
+    - Developers: guides/developers.md
+    - Upgrading: guides/upgrading.md
+  - References:
+    - Architecture: references/architecture.md
+    - Commands: references/commands.md
+    - Roadmap: references/roadmap.md
+  - Frequently Asked Questions: faqs.md
+  - Glossary: glossary.md
