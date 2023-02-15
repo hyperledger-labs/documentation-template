@@ -82,11 +82,6 @@ nav:
   - Getting Started:
     - Installation: getting-started/installation.md
     - Running: getting-started/running.md
-    - Contributing:
-      - How to Contribute: contributing/how-to-contribute.md
-      - Reporting a Bug: contributing/reporting-a-bug.md
-      - Requesting a Change: contributing/requesting-a-change.md
-      - Asking a Question: contributing/asking-a-question.md
   - Tutorials:
     - Introduction: tutorials/index.md
     - Tutorial 1: tutorials/tutorial-1.md
@@ -100,5 +95,10 @@ nav:
     - Architecture: references/architecture.md
     - Commands: references/commands.md
     - Roadmap: references/roadmap.md
+  - Contributing:
+    - How to Contribute: contributing/how-to-contribute.md
+    - Reporting a Bug: contributing/reporting-a-bug.md
+    - Requesting a Change: contributing/requesting-a-change.md
+    - Asking a Question: contributing/asking-a-question.md
   - FAQs: faqs.md
   - Glossary: glossary.md
