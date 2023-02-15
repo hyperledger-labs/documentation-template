@@ -85,13 +85,10 @@ The `docs/concepts` directory will contain information about the relevant concep
 
 ### Getting Started
 
-The files in the Getting Started topic are intended to help people get up and running with your project. Those people could be users of your projects or contributors to your projects. The latter audience is covered by the files in the `docs/contributing` folder.
+The files in the Getting Started topic are intended to help people get up and running with your project. 
 
 * Installation (`docs/getting-started/installation.md`) - provide details on how to install the project.
 * Running (`docs/getting-started/running.md`) - provide details on how to run the project.
-* How to Contribute (`docs/contributing/how-to-contribute.md`) - provide details on how to contribute to the project.
-* Reporting a Bug (`docs/contributing/reporting-a-bug.md`) - provide details on how to report a bug. What information is required (e.g., reproducability steps).
-* Asking a Question (`docs/contributing/asking-a-question.md`) - provide details on how and where to ask questions.
 
 ### Tutorials
 
@@ -126,6 +123,18 @@ In the References section, there are three placeholders:
 
 !!! note
     The placeholders are not all inclusive. Please add any other reference material that is needed and update the `mkdocs.yml` `nav` section to ensure these references show up on the documentation site.
+
+### Contributing
+
+The files in the Contributing topic are intended to help people who are interested in contributing to your project.
+
+!!! note
+    Sample text has been provided in these files. Feel free to modify to fit your project.
+
+* How to Contribute (`docs/contributing/how-to-contribute.md`) - provide details on how to contribute to the project.
+* Reporting a Bug (`docs/contributing/reporting-a-bug.md`) - provide details on how to report a bug.
+* Requesting a Change (`docs/contributing/requesting-a-change.md`) - provide details on how to request a change. 
+* Asking a Question (`docs/contributing/asking-a-question.md`) - provide details on how and where to ask questions.
 
 ### FAQs
 
