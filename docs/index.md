@@ -15,6 +15,15 @@ Change the `site_name` tag in `mkdocs.yml` to reflect the name of your Hyperledg
     site_name: Hyperledger Bevel
     ```
 
+### Repo URL
+
+Change the `repo_url` tag in `mkdocs.yml` to reflect the repository of your Hyperledger project.
+
+!!! example
+    ``` yaml
+    repo_url: https://github.com/hyperledger/project
+    ```
+
 ### Project Logo
 
 Replace the file `docs/assets/project-logo.png` with the logo for your project.

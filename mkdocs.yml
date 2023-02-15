@@ -1,8 +1,11 @@
 site_name: Hyperledger Project
+repo_url: https://github.com/tkuhrt/documentation-template
 theme:
   name: material
   logo: assets/project-logo.png
   favicon: assets/project-icon.png
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -22,9 +25,11 @@ theme:
   - navigation.footer
   - navigation.instant
   - navigation.tabs
+  - navigation.tabs.sticky
   - navigation.top
   - navigation.tracking
   - toc.follow
+  - toc.integrate
 markdown_extensions:
   - abbr
   - admonition
