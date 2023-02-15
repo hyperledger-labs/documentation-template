@@ -1,3 +1,12 @@
 # Reporting a Bug
 
-Explain how to report a bug.
+To report a bug, find the related repository and open an issue there.
+
+When reporting an issue, please provide as much detail as possible about how to reproduce it. If possible, explain how to reproduce the issue. Details are very helpful. Please include the following information:
+
+* Operating system and version (if Mac, include the processor)
+* Project version
+* Environment details (virtual, physical, etc.)
+* Steps to reproduce the issue
+* Actual results
+* Expected results
