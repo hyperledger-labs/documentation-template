@@ -1,6 +1,6 @@
 # Requesting a Change
 
-Hyperledger _Project_ is a powerful tool which serves a wide range of use cases.
+Hyperledger _PROJECT_ is a powerful tool which serves a wide range of use cases.
 Put yourself in our shoes – with a project of this size, it can be challenging
 to maintain existing functionality while constantly adding new features at the
 same time. We highly value every idea or contribution from our community, and
@@ -79,7 +79,7 @@ be inferred from the title.
 
 Before describing your idea, you can provide additional context for us to
 understand what you are trying to achieve. Explain the circumstances
-in which you're using Hyperledger _Project_, and what you _think_ might be
+in which you're using Hyperledger _PROJECT_, and what you _think_ might be
 relevant. Don't write about the change request here.
 
 !!! success "Why we need this"
@@ -88,7 +88,7 @@ relevant. Don't write about the change request here.
 ### Description
 
 Next, provide a detailed and clear description of your idea. Explain why your 
-idea is relevant to Hyperledger _Project_ and must be implemented here, and not
+idea is relevant to Hyperledger _PROJECT_ and must be implemented here, and not
 in one of its dependencies.
 
 -   __Explain the <u>what</u>, not the <u>why</u>__ – don't explain
@@ -142,14 +142,14 @@ elsewhere, please provide an example by showcasing
 it and describing how it was implemented and incorporated.
 
 !!! success "Why we need this"
-    Illustrations and visuals can help us maintainers better understand and envision your idea. Screenshots, sketches, or mockups can create an additional level of detail and clarity that text alone may not be able to convey. Also, seeing how your idea has been implemented in other projects can help us understand its potential impact and feasibility in Hyperledger _Project_, which helps us maintainers evaluate and triage change requests.
+    Illustrations and visuals can help us maintainers better understand and envision your idea. Screenshots, sketches, or mockups can create an additional level of detail and clarity that text alone may not be able to convey. Also, seeing how your idea has been implemented in other projects can help us understand its potential impact and feasibility in Hyperledger _PROJECT_, which helps us maintainers evaluate and triage change requests.
 
 ### Checklist
 
 Thanks for following the change request guide and creating a high-quality 
 change request. This section ensures that you have read this guide and have
 worked to your best knowledge to provide us with every piece of information to 
-review your idea for Hyperledger _Project_.
+review your idea for Hyperledger _PROJECT_.
 
 __We'll take it from here.__
 

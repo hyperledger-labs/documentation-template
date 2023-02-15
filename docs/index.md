@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains a template that will allow you to quickly bring up a documentation site for Hyperledger _Project_. In general, the template provides suggested topics that should be covered in your documentation; however, you can always add/remove content to fit the needs of the project.
+This repository contains a template that will allow you to quickly bring up a documentation site for Hyperledger _PROJECT_. In general, the template provides suggested topics that should be covered in your documentation; however, you can always add/remove content to fit the needs of the project.
 
 The following changes need to be done to update the documentation for your project.
 
@@ -21,7 +21,7 @@ Change the `repo_url` tag in `mkdocs.yml` to reflect the repository of your Hype
 
 !!! example
     ``` yaml
-    repo_url: https://github.com/hyperledger/project
+    repo_url: https://github.com/hyperledger/_PROJECT_
     ```
 
 ### Project Logo
@@ -61,6 +61,10 @@ Replace the file `docs/assets/project-icon.png` with the icon for your project.
         ```
 
 ## Documentation Updates
+
+### Overall
+
+Find and replace the use of `_PROJECT_` with the name of your project in all markdown files and the `mkdocs.yml` file.
 
 ### Introduction
 

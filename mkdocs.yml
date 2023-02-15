@@ -1,4 +1,4 @@
-site_name: Hyperledger Project
+site_name: Hyperledger _PROJECT_
 repo_url: https://github.com/tkuhrt/documentation-template
 theme:
   name: material

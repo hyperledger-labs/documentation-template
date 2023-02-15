@@ -3,7 +3,7 @@
 ## Ways to Contribute
 
 Contributions from the development community help improve the capabilities of
-Hyperledger Project. These contributions are the most effective way to
+Hyperledger _PROJECT_. These contributions are the most effective way to
 make a positive impact on the project.
 
 Ways you can contribute:
@@ -17,7 +17,7 @@ Issues can be found in GitHub. Any unassigned items are probably still open. Whe
 
 ## The Commit Process
 
-Hyperledger Project is Apache 2.0 licensed and accepts contributions via GitHub pull requests. When contributing code, please follow these guidelines:
+Hyperledger _PROJECT_ is Apache 2.0 licensed and accepts contributions via GitHub pull requests. When contributing code, please follow these guidelines:
 
 * Fork the repository and make your changes in a feature branch
 * Include unit and integration tests for any new features and updates to existing tests
