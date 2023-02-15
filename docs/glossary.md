@@ -1,9 +1,7 @@
-# Glossary
+**term**
 
-## Term
+: definition
 
-Definition
+**term**
 
-## Term
-
-Definition
+: definition

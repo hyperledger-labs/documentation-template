@@ -2,6 +2,7 @@ site_name: Hyperledger Project
 theme:
   name: material
   logo: assets/project-logo.png
+  favicon: assets/project-icon.png
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -20,6 +21,8 @@ theme:
   - navigation.expand
   - navigation.footer
   - navigation.instant
+  - navigation.tabs
+  - navigation.top
   - navigation.tracking
   - toc.follow
 markdown_extensions:
@@ -76,9 +79,9 @@ nav:
     - Running: getting-started/running.md
     - Contributing:
       - How to Contribute: contributing/how-to-contribute.md
-      - Reporting a bug: contributing/reporting-a-bug.md
-      - Requesting a change: contributing/requesting-a-change.md
-      - Asking a question: contributing/asking-a-question.md
+      - Reporting a Bug: contributing/reporting-a-bug.md
+      - Requesting a Change: contributing/requesting-a-change.md
+      - Asking a Question: contributing/asking-a-question.md
   - Tutorials:
     - Introduction: tutorials/index.md
     - Tutorial 1: tutorials/tutorial-1.md
@@ -92,5 +95,5 @@ nav:
     - Architecture: references/architecture.md
     - Commands: references/commands.md
     - Roadmap: references/roadmap.md
-  - Frequently Asked Questions: faqs.md
+  - FAQs: faqs.md
   - Glossary: glossary.md
