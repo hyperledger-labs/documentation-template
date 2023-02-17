@@ -28,5 +28,5 @@ jobs:
 
       - name: Deploy docs
         run: |
-          mike deploy -b gh-pages --push --update-aliases 0.1 latest
-          mike set-default 0.1
+          mike deploy --push --update-aliases 0.1 latest
+          mike set-default latest
