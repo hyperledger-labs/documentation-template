@@ -2,6 +2,7 @@ site_name: Hyperledger _PROJECT_
 repo_url: https://github.com/tkuhrt/documentation-template
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/project-logo.png
   favicon: assets/project-icon.png
   icon:
@@ -73,6 +74,8 @@ extra:
   analytics:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
+  version:
+    provider: mike
 nav:
   - Introduction: index.md
   - Concepts:
