@@ -17,8 +17,15 @@ jobs:
         with:
           key: ${{ github.ref }}
           path: .cache
-      - run: pip install mkdocs-material mike
-      - run: mike deploy --push --update-aliases 0.1 latest
-      - run: mike set-default 0.1
-      - run: mkdocs gh-deploy --force
+      - name: Install Python dependencies
+        run: pip install -r ./requirements.txt
+      - name: Configure git user
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Deploy docs
+        run: |
+          mike deploy -b gh-pages --push --update-aliases 0.1 latest
+          mike set-default 0.1
 
