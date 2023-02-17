@@ -70,6 +70,9 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+plugins:
+  - search
+  - mike
 extra:
   analytics:
     provider: google
