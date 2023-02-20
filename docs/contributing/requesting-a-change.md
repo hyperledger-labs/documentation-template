@@ -153,3 +153,5 @@ review your idea for Hyperledger _PROJECT_.
 
 __We'll take it from here.__
 
+## Credits
+This document is based on [Material for MkDocs Requesting a Change](https://github.com/squidfunk/mkdocs-material/blob/master/docs/contributing/requesting-a-change.md).

@@ -56,11 +56,12 @@ A pull request cannot merged until it has passed these status checks:
 * The PR must be approved by at least two reviewers without any
   outstanding requests for changes
 
-## Documentation
+## Inclusive Language
 
-### Inclusive Language
-
-- Consider that users who will read the docs are from different background and cultures and that they have different preferences.
+- Consider that users who will read the source code and documentation are from different background and cultures and that they have different preferences.
 - Avoid potential offensive terms and, for instance, prefer "allow list and deny list" to "white list and black list".
-- We believe that we all have a role to play to improve our world, and even if writing inclusive doc might not look like a huge improvement, it's a first step in the right direction.
+- We believe that we all have a role to play to improve our world, and even if writing inclusive code and documentation might not look like a huge improvement, it's a first step in the right direction.
 - We suggest to refer to [Microsoft bias free writing guidelines](https://learn.microsoft.com/en-us/style-guide/bias-free-communication) and [Google inclusive doc writing guide](https://developers.google.com/style/inclusive-documentation) as starting points.
+
+## Credits
+This document is based on [Hyperledger Sawtooth's Contributing documentation](https://github.com/hyperledger/sawtooth-docs/blob/main/community/contributing.md).
