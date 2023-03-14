@@ -1,5 +1,6 @@
 site_name: Hyperledger _PROJECT_
-repo_url: https://github.com/tkuhrt/documentation-template
+repo_name: hyperledger-labs/documentation-template
+repo_url: https://github.com/hyperledger-labs/documentation-template
 theme:
   name: material
   custom_dir: overrides
