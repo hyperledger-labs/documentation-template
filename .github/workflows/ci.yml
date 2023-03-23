@@ -1,10 +1,18 @@
 name: ci 
+
 on:
   push:
+    # Publish `main` as latest
     branches:
       - main
+
+    # Publish `v1.2.3` tags as releases
+    tags:
+      - v*
+
 permissions:
   contents: write
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -28,5 +36,10 @@ jobs:
 
       - name: Deploy docs
         run: |
-          mike deploy --push --update-aliases 0.1 latest
+          # Strip git ref prefix from version
+          VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
+          # If building from main, use latest as VERSION
+          [ "$VERSION" == "main" ] && VERSION=latest
+          echo $VERSION
+          mike deploy --push --update-aliases $VERSION
           mike set-default latest
