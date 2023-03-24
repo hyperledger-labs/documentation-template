@@ -41,5 +41,5 @@ jobs:
           # If building from main, use latest as VERSION
           [ "$VERSION" == "main" ] && VERSION=latest
           echo $VERSION
-          mike deploy --push --force --update-aliases $VERSION
+          mike deploy --push --force --update-aliases $VERSION $VERSION
           mike set-default latest
