@@ -37,9 +37,12 @@ jobs:
       - name: Deploy docs
         run: |
           # Strip git ref prefix from version
+          echo "${{ github.ref }}"
           VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
-          # If building from main, use latest as VERSION
-          [ "$VERSION" == "main" ] && VERSION=latest
-          echo $VERSION
-          mike deploy --push --force --update-aliases $VERSION $VERSION
+          # Strip "v" prefix from tag name
+          [[ "${{ github.ref }}" == "refs/tags/"* ]] && ALIAS=$(echo $VERSION | sed -e 's/^v//')
+          # If building from main, use latest as ALIAS
+          [ "$VERSION" == "main" ] && ALIAS=latest
+          echo $VERSION $ALIAS
+          mike deploy --push --update-aliases $VERSION $ALIAS
           mike set-default latest
