@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 To verify your setup, check that you can run `mkdocs` by running the command `mkdocs --help` to see the help text.
 
-### Useful MkDocs Commands
+## Useful MkDocs Commands
 
 The commands you will usually use with `mkdocs` are:
 
