@@ -102,7 +102,7 @@ in one of its dependencies.
 -   __One idea at a time__ – if you have multiple ideas that don't belong 
 together, please open separate change requests for each of those ideas.
 
--   :material-run-fast: __Stretch goal__ – if you have a customization or another way to add the proposed change, you can help other users by sharing it here before we  maintainers can add it to our code base.
+-   :material-run-fast: __Stretch goal__ – if you have a customization or another way to add the proposed change, you can help other users by sharing it here before we maintainers can add it to our code base.
 
 !!! success "Why we need this"
     To understand and evaluate your proposed change, we need to have a clear understanding of your idea. By providing a detailed and precise description, you can help save you and us time spent discussing further clarification of your idea in the comments.
