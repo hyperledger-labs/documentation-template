@@ -1,7 +1,6 @@
-name: "Documentation Issue"
-description: Issues related to documentation.
-title: "docs: "
-labels: [documentation]
+name: Enhancement Tracking Issue
+description: Provide supporting details for an enhancement
+labels: [enhancement]
 body:
   - type: markdown
     attributes:
@@ -12,20 +11,17 @@ body:
         - Search the [open issues](https://github.com/hyperledger-labs/documentation-template/issues) to avoid duplicating the issue.
 
   - type: textarea
-    id: current-state
+    id: enhancement
     attributes:
-      label: Current State
-      description: Describe the current state of the documentation.
-      placeholder: |
-        The documentation for the API in this page (url) is missing ...
+      label: What would you like to be added?
+      description: |
+        A clear and concise description of what you want to happen.
     validations:
       required: true
+
   - type: textarea
-    id: desired-state
+    id: rationale
     attributes:
-      label: Desired State
-      description: Describe the desired state the documentation should be in.
-      placeholder: |
-        Add here ...
+      label: Why is this needed?
     validations:
       required: true

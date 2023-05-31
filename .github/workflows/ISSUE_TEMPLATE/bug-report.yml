@@ -1,14 +1,22 @@
 name: 🐞 Bug
 description: File a bug/issue
-labels: [Bug, Needs Triage]
+labels: [Bug]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        _The more information you share, the faster we can help you._
+        Prior to opening the issue, please make sure that you:
+        - Use English (EN/US) to communicate.
+        - Search the [open issues](https://github.com/hyperledger-labs/documentation-template/issues) to avoid duplicating the issue.
+
   - type: textarea
     id: problem
     attributes:
       label: What happened?
       description: |
         Please provide as much info as possible. Not doing so may result in your bug not being addressed in a timely manner.
-        If this matter is security related, please disclose it privately via https://discord.gg/hyperledger
+        If this matter is security related, please disclose it privately via security@hyperledger.org
     validations:
       required: true
 

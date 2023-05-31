@@ -2,11 +2,11 @@
 
 
 # Number of days of inactivity before an Issue or Pull Request becomes stale
-daysUntilStale: 5
+daysUntilStale: 30
 # Number of days of inactivity before a stale Issue or Pull Request is closed
-daysUntilClose: 12
+daysUntilClose: 60
 # Number of days of inactivity before a reminder comment is posted. Set to `false` to disable
-daysBeforeReminder: 3
+daysBeforeReminder: 14
 # Only issues or pull requests with all of these labels are checked if stale. Defaults to `[]` (disabled)
 onlyLabels:
  - stat:awaiting response
