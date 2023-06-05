@@ -1,40 +1,45 @@
 <!--  Thanks for sending a pull request! -->
 
-## What this PR does / why we need it:
+## Proposed changes
 
-## Which issue(s) this PR fixes:
-<!--
-*Automatically closes linked issue when PR is merged.
-Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
-_If PR is about `failing-tests`, please post the related issues/tests in a comment and do not use `Fixes`_*
--->
-Fixes #
+Please include a summary of the changes here and why we need those changes. And also let us know which issue is fixed. 
 
-## Special notes for your reviewer:
+Fixes # <issue_number_here>
 
-## Does this PR introduce a user-facing change?
-<!--
-If no, just write "NONE" in the release-note block below.
-If yes, a release note is required:
-Enter your extended-release note in the block below. If the PR requires additional action from users switching to the new release, include the string "action required".
+<hr>
 
--->
-```release-note
+## Types of changes
 
-```
+<!-- to mark a point done, place an x in square brackets. eg [x]-->
+<!-- - [x] done with this task-->
+<!----Please delete options that are not relevant. And in order to tick the check box just but x inside them for example [x] like this----->
 
-## Additional documentation, usage docs, etc.:
+- [ ] Bug fix 
+- [ ] New feature added
+- [ ] Documentation Update 
 
-<!--
-This section can be blank if this pull request does not require a release note.
+<hr>
 
-When adding links which point to resources within git repositories, like
-supporting documentation, please reference a specific commit and avoid
-linking directly to the master branch. This ensures that links reference a
-specific point in time, rather than a document that may change over time.
+## Please make sure to follow these points 
+
+<!-- to mark a point done, place an x in square brackets. eg [x]-->
+<!-- - [x] done with this task-->
+<!----Please delete options that are not relevant. And in order to tick the check box just but x inside them for example [x] like this----->
+
+- [ ] I have read the contributing guidelines.
+- [ ] I have performed a self-review of my own code or work.
+- [ ] I have commented my code, particularly in hard-to-understand areas.
+- [ ] My changes generates no new warnings.
+- [ ] My Pull Request title is in format <code>< issue name ></code> eg <code>Added links in the documentation</code>.
+- [ ] I have added tests that prove my fix is effective or that my feature works.
+
+<hr>
+
+## Screenshots (If Applicable)
+
+<hr>
 
 
--->
-```docs
+## Other Information
 
-```
+Any message for the reviewer or kick off the discussion by explaining why you considered this particular solution, any alternatives etc.
