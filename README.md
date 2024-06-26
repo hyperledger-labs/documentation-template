@@ -37,6 +37,10 @@ pip install -r requirements.txt
 
 To verify your setup, check that you can run `mkdocs` by running the command `mkdocs --help` to see the help text.
 
+## Devcontainer
+
+This project includes a [devcontainer](https://code.visualstudio.com/docs/remote/containers) configuration that will automatically install all of the necessary tools and dependencies when you open this repository in VSCode. To use it, follow the steps in [this guide](https://code.visualstudio.com/docs/remote/containers#_quick-start). The devcontainer will automatically start the mkdocs server which you can connect to at https://127.0.0.1:8001.
+
 ## Useful MkDocs Commands
 
 The commands you will usually use with `mkdocs` are:
